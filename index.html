@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Stock Viewer</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="app">
+            <h1 id="app-title">
+                Stock Viewer
+            </h1>
+
+            <label for="stock-ticker">Ticker Symbol</label>
+            <br>
+            <input type="text" id="stock-ticker" maxlength="10">
+
+            <br>
+
+            <button id="get-stock-info"><p>Get Stock Info</p></button>
+
+            <h3 id="status"></h3>
+
+            <div id="stock-output">
+                <h1 id="stock-name"></h1>
+                <p id="stock-current-price"></p>
+                <p id="stock-close-price"></p>
+                <p id="stock-open-price"></p>
+                <p id="stock-percent-change"></p>
+            </div>
+        </div>
+        
+        <script type="module" src="index.js"></script>
+    </body>
+</html>

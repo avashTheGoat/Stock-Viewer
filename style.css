@@ -1,0 +1,73 @@
+:root {
+    font-family: Georgia;
+    font-size: 1.4rem;
+}
+
+body {
+    text-align: center;
+    background-color: hsl(196, 33%, 18%);
+    color: whitesmoke;
+}
+
+button {
+    background-color: hsl(173, 54%, 30%);
+    border: none;
+    border-radius: 10px;
+
+    transition: background-color 0.25s;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(173, 60%, 37%);
+}
+
+button p {
+    font-family: Georgia;
+    margin: 0px 0px;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+input {
+    font-family: Georgia;
+    font-size: large;
+}
+
+#app {
+    width: max-content;
+    margin: auto;
+
+    margin-top: 20px;
+    padding: 15px 70px;
+
+    border-radius: 15px;
+    
+    background-color: rgb(0, 0, 0, 0.075);
+}
+
+#app-title {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#stock-ticker {
+    margin-bottom: 20px;
+}
+
+#get-stock-info {
+    width: 170px;
+    height: 40px;
+}
+
+#status {
+    max-width: 400px;
+}
+
+#stock-name {
+    /* font-weight: 550;
+    font-size: 2em; */
+
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 5px;
+}
